@@ -382,3 +382,6 @@ Created symlink /etc/systemd/system/network-online.target.wants/NetworkManager-w
 ```console
 [your_user_name@your_host_name ~]$ sudo pacman -S gvfs git libreoffice-still vlc neovim vim transmission-gtk gimp
 ```
+
+### Support
+- [Binance](https://www.binance.com/en/my/wallet/account/payment/send): `Pay ID: 546639204`

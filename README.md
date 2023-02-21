@@ -382,3 +382,6 @@ Created symlink /etc/systemd/system/network-online.target.wants/NetworkManager-w
 ```console
 [your_user_name@your_host_name ~]$ sudo pacman -S gvfs git libreoffice-still vlc neovim vim transmission-gtk gimp
 ```
+
+### Support
+- [Paypal](https://www.paypal.com/donate/?hosted_button_id=9BFAD3RVEZNQ2)

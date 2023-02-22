@@ -165,7 +165,7 @@ root@archiso# ln -sf /usr/share/zoneinfo/America/Argentina/Buenos_Aires /etc/loc
 root@archiso# nano /etc/locale.gen
 ```
 - Uncomment the distribution you want (in this example: es_AR.UTF8 UTF8)
-<img src="https://github.com/charkuils/arch-install/blob/master/arch-locale.png?raw=true" alt="archlinux" style="width:600px;"/>
+<img src="https://github.com/javiorfo/arch-install/blob/master/arch-locale.png?raw=true" alt="archlinux" style="width:600px;"/>
 
 - Save file pressing `Ctrl+O` and `Ctrl+X` to exit
 - Execute to generate locale:

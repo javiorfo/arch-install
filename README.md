@@ -1,6 +1,6 @@
-<img src="https://github.com/charkuils/arch-install/blob/master/archlogo.png?raw=true" alt="archlinux" style="width:200px;"/>
+<img src="https://github.com/javiorfo/arch-install/blob/master/archlogo.png?raw=true" alt="archlinux" style="width:200px;"/>
 
-# Arch Linux Installation (UEFI/BIOS) and Setup with [XMonarch](https://github.com/charkuils/xmonarch)
+# Arch Linux Installation (UEFI/BIOS) and Setup with [XMonarch](https://github.com/javiorfo/xmonarch)
 
 ## Preparation
 - Download [Arch Linux ISO](https://archlinux.org/download/)
@@ -331,10 +331,10 @@ Created symlink /etc/systemd/system/network-online.target.wants/NetworkManager-w
 [root@your_host_name your_user_name]# pacman -S --needed xorg lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings
 ```
 
-#### If you want [XMonarch](https://github.com/charkuils/xmonarch) (Xmonad + Xmobar).
+#### If you want [XMonarch](https://github.com/javiorfo/xmonarch) (Xmonad + Xmobar).
 ```console
 [root@your_host_name your_user_name]# pacman -S git wget
-[root@your_host_name your_user_name]# git clone https://github.com/charkuils/xmonarch
+[root@your_host_name your_user_name]# git clone https://github.com/javiorfo/xmonarch
 [root@your_host_name your_user_name]# cd xmonarch
 [root@your_host_name your_user_name]# ./xmonarch.sh
 ```
@@ -360,7 +360,7 @@ Created symlink /etc/systemd/system/network-online.target.wants/NetworkManager-w
 ```
 - Set AutoEnable to true
 
-<img src="https://github.com/charkuils/arch-install/blob/master/arch-bluetooth.jpg?raw=true" alt="archlinux" style="width:600px;"/>
+<img src="https://github.com/javiorfo/arch-install/blob/master/arch-bluetooth.jpg?raw=true" alt="archlinux" style="width:600px;"/>
 
 - Enable bluetooth
 ```console

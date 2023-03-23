@@ -313,15 +313,10 @@ Created symlink /etc/systemd/system/network-online.target.wants/NetworkManager-w
 ```console
 [your_user_name@your_host_name ~]$ sudo pacman -S base-devel
 ```
-- Download yay
+- Download and install paru
 ```console
-[your_user_name@your_host_name ~]$ cd /opt
-[your_user_name@your_host_name ~]$ sudo git clone https://aur.archlinux.org/yay.git
-```
-- Configure yay (to know your user group: `id your_user_name`)
-```console
-[your_user_name@your_host_name ~]$ sudo chown -R your_user_name:your_user_group ./yay
-[your_user_name@your_host_name ~]$ cd yay
+[your_user_name@your_host_name ~]$ git clone https://aur.archlinux.org/paru.git
+[your_user_name@your_host_name ~]$ cd paru
 [your_user_name@your_host_name ~]$ makepkg -si
 ```
 
@@ -380,7 +375,7 @@ Created symlink /etc/systemd/system/network-online.target.wants/NetworkManager-w
 
 ## Extras
 ```console
-[your_user_name@your_host_name ~]$ sudo pacman -S gvfs git libreoffice-still vlc neovim vim transmission-gtk gimp
+[your_user_name@your_host_name ~]$ sudo pacman -S gvfs libreoffice-still vlc neovim vim transmission-gtk gimp
 ```
 
 ### Support

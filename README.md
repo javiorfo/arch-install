@@ -1,6 +1,6 @@
 <img src="https://github.com/systemmalt/arch-install/blob/master/archlogo.png?raw=true" alt="archlinux" style="width:200px;"/>
 
-# Arch Linux Installation (UEFI/BIOS) and Setup with [XMonarch](https://github.com/systemmalt/xmonarch)
+# Arch Linux Installation (UEFI/BIOS) and Setup with [Tuxedo](https://github.com/systemmalt/tuxedo)
 
 ## Preparation
 - Download [Arch Linux ISO](https://archlinux.org/download/)
@@ -326,12 +326,12 @@ Created symlink /etc/systemd/system/network-online.target.wants/NetworkManager-w
 [root@your_host_name your_user_name]# pacman -S --needed xorg lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings
 ```
 
-#### If you want [XMonarch](https://github.com/systemmalt/xmonarch) (Xmonad + Xmobar).
+#### If you want [Tuxedo](https://github.com/systemmalt/tuxedo) (Leftwm + Polybar).
 ```console
 [root@your_host_name your_user_name]# pacman -S git wget
-[root@your_host_name your_user_name]# git clone https://github.com/systemmalt/xmonarch
-[root@your_host_name your_user_name]# cd xmonarch
-[root@your_host_name your_user_name]# ./xmonarch.sh
+[root@your_host_name your_user_name]# git clone https://github.com/systemmalt/tuxedo
+[root@your_host_name your_user_name]# cd tuxedo
+[root@your_host_name your_user_name]# ./tuxedo.sh
 ```
 
 - Enable DM

@@ -1,6 +1,6 @@
-<img src="https://github.com/charkuils/arch-install/blob/master/archlogo.png?raw=true" alt="archlinux" style="width:200px;"/>
+<img src="https://github.com/javiorfo/arch-install/blob/master/archlogo.png?raw=true" alt="archlinux" style="width:200px;"/>
 
-# Arch Linux Installation (UEFI/BIOS) and Setup with [Tuxedo](https://github.com/charkuils/tuxedo)
+# Arch Linux Installation (UEFI/BIOS) and Setup with [Alp](https://github.com/javiorfo/alp)
 
 ## Preparation
 - Download [Arch Linux ISO](https://archlinux.org/download/)
@@ -165,7 +165,7 @@ root@archiso# ln -sf /usr/share/zoneinfo/America/Argentina/Buenos_Aires /etc/loc
 root@archiso# nano /etc/locale.gen
 ```
 - Uncomment the distribution you want (in this example: es_AR.UTF8 UTF8)
-<img src="https://github.com/charkuils/arch-install/blob/master/arch-locale.png?raw=true" alt="archlinux" style="width:600px;"/>
+<img src="https://github.com/javiorfo/arch-install/blob/master/arch-locale.png?raw=true" alt="archlinux" style="width:600px;"/>
 
 - Save file pressing `Ctrl+O` and `Ctrl+X` to exit
 - Execute to generate locale:
@@ -326,12 +326,12 @@ Created symlink /etc/systemd/system/network-online.target.wants/NetworkManager-w
 [root@your_host_name your_user_name]# pacman -S --needed xorg lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings
 ```
 
-#### If you want [Tuxedo](https://github.com/charkuils/tuxedo) (Leftwm + Polybar).
+#### If you want [Alp](https://github.com/javiorfo/alp) (Leftwm + Polybar).
 ```console
 [root@your_host_name your_user_name]# pacman -S git wget
-[root@your_host_name your_user_name]# git clone https://github.com/charkuils/tuxedo
-[root@your_host_name your_user_name]# cd tuxedo
-[root@your_host_name your_user_name]# ./tuxedo.sh
+[root@your_host_name your_user_name]# git clone https://github.com/javiorfo/alp
+[root@your_host_name your_user_name]# cd alp
+[root@your_host_name your_user_name]# ./alp.sh
 ```
 
 - Enable DM
@@ -355,7 +355,7 @@ Created symlink /etc/systemd/system/network-online.target.wants/NetworkManager-w
 ```
 - Set AutoEnable to true
 
-<img src="https://github.com/charkuils/arch-install/blob/master/arch-bluetooth.jpg?raw=true" alt="archlinux" style="width:600px;"/>
+<img src="https://github.com/javiorfo/arch-install/blob/master/arch-bluetooth.jpg?raw=true" alt="archlinux" style="width:600px;"/>
 
 - Enable bluetooth
 ```console

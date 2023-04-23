@@ -377,3 +377,7 @@ Created symlink /etc/systemd/system/network-online.target.wants/NetworkManager-w
 ```console
 [your_user_name@your_host_name ~]$ sudo pacman -S gvfs libreoffice-still vlc neovim vim transmission-gtk gimp
 ```
+
+## Support Charkuils' Work
+
+<img src="https://github.com/charkuils/img/blob/master/binance/BinancePayQR.png?raw=true" alt="binance" style="width:300px;"/>

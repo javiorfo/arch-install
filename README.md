@@ -1,6 +1,6 @@
 <img src="https://github.com/javiorfo/arch-install/blob/master/archlogo.png?raw=true" alt="archlinux" style="width:200px;"/>
 
-# Arch Linux Installation (UEFI/BIOS) and Setup with [Alp](https://github.com/javiorfo/alp)
+# Arch Linux Installation (UEFI/BIOS) and Setup with [Leftwm](https://github.com/leftwm/leftwm) and [Polybar](https://github.com/polybar/polybar)
 
 ## Preparation
 - Download [Arch Linux ISO](https://archlinux.org/download/)
@@ -326,12 +326,12 @@ Created symlink /etc/systemd/system/network-online.target.wants/NetworkManager-w
 [root@your_host_name your_user_name]# pacman -S --needed xorg lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings
 ```
 
-#### If you want [Alp](https://github.com/javiorfo/alp) (Leftwm + Polybar).
+#### [Leftwm + Polybar](https://github.com/javiorfo/dotfiles/.config/leftwm)
 ```console
-[root@your_host_name your_user_name]# pacman -S git wget
-[root@your_host_name your_user_name]# git clone https://github.com/javiorfo/alp
-[root@your_host_name your_user_name]# cd alp
-[root@your_host_name your_user_name]# ./alp.sh
+[root@your_host_name your_user_name]# git clone https://github.com/javiorfo/dotfiles
+[root@your_host_name your_user_name]# cd dotfiles/.config/leftwm
+[root@your_host_name your_user_name]# cp -rd . ~/.config/
+[root@your_host_name your_user_name]# ./archinstall.sh
 ```
 
 - Enable DM

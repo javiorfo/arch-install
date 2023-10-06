@@ -1,4 +1,4 @@
-<img src="https://github.com/javiorfo/arch-install/blob/master/archlogo.png?raw=true" alt="archlinux" style="width:200px;"/>
+<img src="https://github.com/orfosys/arch-install/blob/master/archlogo.png?raw=true" alt="archlinux" style="width:200px;"/>
 
 # Arch Linux Installation (UEFI/BIOS) and Setup with [Leftwm](https://github.com/leftwm/leftwm) and [Polybar](https://github.com/polybar/polybar)
 
@@ -165,7 +165,7 @@ root@archiso# ln -sf /usr/share/zoneinfo/America/Argentina/Buenos_Aires /etc/loc
 root@archiso# nano /etc/locale.gen
 ```
 - Uncomment the distribution you want (in this example: es_AR.UTF8 UTF8)
-<img src="https://github.com/javiorfo/arch-install/blob/master/arch-locale.png?raw=true" alt="archlinux" style="width:600px;"/>
+<img src="https://github.com/orfosys/arch-install/blob/master/arch-locale.png?raw=true" alt="archlinux" style="width:600px;"/>
 
 - Save file pressing `Ctrl+O` and `Ctrl+X` to exit
 - Execute to generate locale:
@@ -326,9 +326,9 @@ Created symlink /etc/systemd/system/network-online.target.wants/NetworkManager-w
 [root@your_host_name your_user_name]# pacman -S --needed xorg lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings
 ```
 
-#### [Leftwm + Polybar](https://github.com/javiorfo/dotfiles/.config/leftwm)
+#### [Leftwm + Polybar](https://github.com/orfosys/dotfiles/.config/leftwm)
 ```console
-[root@your_host_name your_user_name]# git clone https://github.com/javiorfo/dotfiles
+[root@your_host_name your_user_name]# git clone https://github.com/orfosys/dotfiles
 [root@your_host_name your_user_name]# cd dotfiles/.config/leftwm
 [root@your_host_name your_user_name]# cp -rd . ~/.config/
 [root@your_host_name your_user_name]# ./archinstall.sh
@@ -355,7 +355,7 @@ Created symlink /etc/systemd/system/network-online.target.wants/NetworkManager-w
 ```
 - Set AutoEnable to true
 
-<img src="https://github.com/javiorfo/arch-install/blob/master/arch-bluetooth.jpg?raw=true" alt="archlinux" style="width:600px;"/>
+<img src="https://github.com/orfosys/arch-install/blob/master/arch-bluetooth.jpg?raw=true" alt="archlinux" style="width:600px;"/>
 
 - Enable bluetooth
 ```console
@@ -381,4 +381,4 @@ Created symlink /etc/systemd/system/network-online.target.wants/NetworkManager-w
 ---
 
 ### Donate
-- [Paypal](https://www.paypal.com/donate/?hosted_button_id=FA7SGLSCT2H8G)
+- [Binance](https://raw.githubusercontent.com/orfosys/img/master/binance/BinancePayQR.png)

@@ -1,6 +1,6 @@
 <img src="https://github.com/javiorfo/arch-install/blob/master/archlogo.png?raw=true" alt="archlinux" style="width:200px;"/>
 
-# Arch Linux Installation (UEFI/BIOS) and Setup with [Leftwm](https://github.com/leftwm/leftwm) and [Polybar](https://github.com/polybar/polybar)
+# Arch Linux Installation (UEFI/BIOS)
 
 ## Preparation
 - Download [Arch Linux ISO](https://archlinux.org/download/)
@@ -326,14 +326,6 @@ Created symlink /etc/systemd/system/network-online.target.wants/NetworkManager-w
 [root@your_host_name your_user_name]# pacman -S --needed xorg lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings
 ```
 
-#### [Leftwm + Polybar](https://github.com/javiorfo/dotfiles/.config/leftwm)
-```console
-[root@your_host_name your_user_name]# git clone https://github.com/javiorfo/dotfiles
-[root@your_host_name your_user_name]# cd dotfiles/.config/leftwm
-[root@your_host_name your_user_name]# cp -rd . ~/.config/
-[root@your_host_name your_user_name]# ./archinstall.sh
-```
-
 - Enable DM
 ```console
 [root@your_host_name your_user_name]# systemctl enable lightdm
@@ -375,7 +367,7 @@ Created symlink /etc/systemd/system/network-online.target.wants/NetworkManager-w
 
 ## Extras
 ```console
-[your_user_name@your_host_name ~]$ sudo pacman -S gvfs libreoffice-still vlc neovim vim transmission-gtk gimp
+[your_user_name@your_host_name ~]$ sudo pacman -S libreoffice-still mpv neovim transmission-cli gimp
 ```
 
 ---

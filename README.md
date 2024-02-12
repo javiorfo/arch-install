@@ -313,10 +313,10 @@ Created symlink /etc/systemd/system/network-online.target.wants/NetworkManager-w
 ```console
 [your_user_name@your_host_name ~]$ sudo pacman -S --needed git base-devel
 ```
-- Download and install yay
+- Download and install paru
 ```console
-[your_user_name@your_host_name ~]$ git clone https://aur.archlinux.org/yay.git
-[your_user_name@your_host_name ~]$ cd yay
+[your_user_name@your_host_name ~]$ git clone https://aur.archlinux.org/paru.git
+[your_user_name@your_host_name ~]$ cd paru
 [your_user_name@your_host_name ~]$ makepkg -si
 ```
 

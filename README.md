@@ -1,4 +1,4 @@
-<img src="https://github.com/javiorfo/arch-install/blob/master/archlogo.png?raw=true" alt="archlinux" style="width:200px;"/>
+<img src="https://github.com/chaosystema/arch-install/blob/master/archlogo.png?raw=true" alt="archlinux" style="width:200px;"/>
 
 # Arch Linux Installation (UEFI/BIOS)
 
@@ -165,7 +165,7 @@ root@archiso# ln -sf /usr/share/zoneinfo/America/Argentina/Buenos_Aires /etc/loc
 root@archiso# nano /etc/locale.gen
 ```
 - Uncomment the distribution you want (in this example: es_AR.UTF8 UTF8)
-<img src="https://github.com/javiorfo/arch-install/blob/master/arch-locale.png?raw=true" alt="archlinux" style="width:600px;"/>
+<img src="https://github.com/chaosystema/arch-install/blob/master/arch-locale.png?raw=true" alt="archlinux" style="width:600px;"/>
 
 - Save file pressing `Ctrl+O` and `Ctrl+X` to exit
 - Execute to generate locale:
@@ -347,7 +347,7 @@ Created symlink /etc/systemd/system/network-online.target.wants/NetworkManager-w
 ```
 - Set AutoEnable to true
 
-<img src="https://github.com/javiorfo/arch-install/blob/master/arch-bluetooth.jpg?raw=true" alt="archlinux" style="width:600px;"/>
+<img src="https://github.com/chaosystema/arch-install/blob/master/arch-bluetooth.jpg?raw=true" alt="archlinux" style="width:600px;"/>
 
 - Enable bluetooth
 ```console
@@ -373,5 +373,4 @@ Created symlink /etc/systemd/system/network-online.target.wants/NetworkManager-w
 ---
 
 ### Donate
-- **Bitcoin** [(QR)](https://raw.githubusercontent.com/javiorfo/img/master/crypto/bitcoin.png)  `1GqdJ63RDPE4eJKujHi166FAyigvHu5R7v`
-- [Paypal](https://www.paypal.com/donate/?hosted_button_id=FA7SGLSCT2H8G)
+- **Bitcoin** [(QR)](https://raw.githubusercontent.com/chaosystema/img/master/crypto/bitcoin.png)  `1GqdJ63RDPE4eJKujHi166FAyigvHu5R7v`
